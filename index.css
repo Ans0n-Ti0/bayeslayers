@@ -1,0 +1,54 @@
+/*
+ * -- BASE STYLES --
+ * Most of these are inherited from Base, but I want to change a few.
+ */
+
+/*
+ * -- LAYOUT STYLES --
+ * This layout consists of three main elements, `#nav` (navigation bar), `#list` (email list), and `#main` (email content). All 3 elements are within `#layout`
+ */
+#layout, #main, #aside {
+    margin: 0;
+    padding: 0;
+}
+
+#layout {
+   position: fixed;
+   height: 100%;
+   width: 100%;
+}
+
+#aside {
+    overflow-y: scroll;
+}
+
+/*
+ * -- TABLET (AND UP) MEDIA QUERIES --
+ * On tablets and other medium-sized devices, we want to customize some
+ * of the mobile styles.
+ */
+@media (min-width: 40em) {
+
+}
+
+/*
+ * -- DESKTOP (AND UP) MEDIA QUERIES --
+ * On desktops and other large-sized devices, we want to customize some
+ * of the mobile styles.
+ */
+@media (min-width: 60em) {
+
+#main {
+    height: 100%;
+    width: 70%;
+    float: left;
+}
+
+#aside {
+    height: 100%;
+    width: 30%;
+    float: left;
+}
+
+}
+
