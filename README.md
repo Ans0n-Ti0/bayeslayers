@@ -8,7 +8,9 @@ The compiled webapp is available for download at the bayeslayers Github [release
 ## Compiling the Source Code
 ### Requirements
 * npm
-* webpack
+* `$npm install webpack --save`
+* `$npm install mithril --save`
+* `$npm install openlayers --save`
 
 ### Instructions
 Clone the repository:
